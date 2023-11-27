@@ -1,0 +1,236 @@
+@import "utils/vars/colors.scss";
+
+.meetup {
+  margin-top: 130px;
+  margin-bottom: 380px;
+
+  .rectangle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .rectangle-mobile {
+    display: none;
+  }
+
+  &__onlineEventIconWrapper {
+    height: 50px;
+    max-width: 200px;
+    width: 100%;
+  }
+
+  &__attendees {
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  &__btnsWrapper {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__leftContent {
+    max-width: 640px;
+    width: 100%;
+
+    img {
+      width: 100%;
+      margin-bottom: 30px;
+      object-fit: cover;
+      border-radius: 30px;
+      height: 320px;
+    }
+  }
+
+  &__date {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+
+  &__description {
+    color: $grey;
+  }
+
+  &__rightContent {
+    .subtitle {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    width: 396px;
+    box-sizing: border-box;
+    background: linear-gradient(
+      111.68deg,
+      rgba(255, 255, 255, 0.2) 7.59%,
+      rgba(255, 255, 255, 0.5) 102.04%
+    );
+    box-shadow: 0px 15px 60px rgba(70, 61, 128, 0.2);
+
+    border-radius: 30px;
+    padding: 25px 50px;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+
+    h5 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 400px;
+    }
+  }
+}
+
+@media (max-width: 1124.98px) {
+  .meetup {
+    &__content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__btnsWrapper {
+      flex-direction: column;
+    }
+
+    &__onlineEventIconWrapper,
+    &__attendees {
+      height: 30px;
+      width: 200px;
+      margin-top: 10px;
+    }
+
+    &__attendees {
+      margin-left: 0;
+    }
+
+    &__content {
+      align-items: flex-start;
+    }
+
+    &__leftContent {
+      max-width: none;
+    }
+
+    &__rightContent {
+      width: 100%;
+    }
+
+    &__date {
+      margin-bottom: 30px;
+    }
+
+    &__card {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .meetup {
+    margin-top: 40px;
+    margin-bottom: 90px;
+
+    .rectangle {
+      display: none;
+    }
+
+    .rectangle-mobile {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 400px;
+      width: 100%;
+      z-index: -1;
+    }
+
+    &__header {
+      flex-direction: column;
+      align-items: unset;
+
+      .title {
+        margin-bottom: 20px;
+      }
+    }
+
+    &__btnsWrapper {
+      flex-direction: column;
+      align-items: unset;
+    }
+
+    &__onlineEventIconWrapper,
+    &__attendees {
+      height: 30px;
+    }
+    &__attendees {
+      margin-left: 0;
+      margin-top: 15px;
+    }
+
+    &__content {
+      flex-direction: column;
+    }
+
+    &__leftContent {
+      margin-bottom: 50px;
+
+      img {
+        height: 200px;
+        margin-bottom: 30px;
+      }
+    }
+
+    &__speakers {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__card {
+      width: 335px;
+      padding: 15px;
+    }
+
+    &__date {
+      margin-top: 30px;
+    }
+  }
+}

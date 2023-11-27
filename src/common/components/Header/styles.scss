@@ -1,0 +1,91 @@
+@import "utils/vars/colors.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+
+  &__leftContent {
+    display: flex;
+    align-items: center;
+  }
+
+  &__flagImg {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  &__menuBtn {
+    width: 40px;
+    height: 40px;
+    display: none !important;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__logo {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 15px 60px rgba(70, 61, 128, 0.3));
+    border-radius: 500px;
+    margin-right: 20px;
+  }
+
+  &__navItem {
+    font-size: 18px;
+    font-weight: 400;
+    color: $base-text-color;
+    margin-right: 30px;
+    text-decoration: none;
+
+    &:hover {
+      background: linear-gradient(131.35deg, #cb97ff 7.53%, #583dff 94.2%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    &.active {
+      background: linear-gradient(131.35deg, #cb97ff 7.53%, #583dff 94.2%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .header {
+    &__nav {
+      display: none;
+    }
+
+    &__logo {
+      width: 69px;
+      height: 69px;
+    }
+
+    &__menuBtn {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__menuIcon {
+      width: 24px;
+      height: 24px;
+    }
+
+    &__navItem {
+      margin-bottom: 20px;
+    }
+  }
+}

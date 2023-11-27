@@ -1,0 +1,9 @@
+.sideDrawer {
+  display: none;
+}
+
+@media (max-width: 1199.98px) {
+  .sideDrawer {
+    display: block;
+  }
+}

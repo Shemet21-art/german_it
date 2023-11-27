@@ -1,0 +1,155 @@
+@import "utils/vars/colors.scss";
+
+.banner {
+  margin-bottom: 240px;
+
+  .rectangle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    display: block;
+  }
+  .rectangleMobile {
+    display: none;
+  }
+
+  .slick-dots {
+    bottom: -40px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__sliderCardWrapper {
+    margin: 10px;
+  }
+
+  &__leftBlock {
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  &__subTitle {
+    color: $base-text-color;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 70px;
+  }
+
+  &__rightBlock {
+    width: 330px;
+    margin-left: 260px;
+    position: relative;
+  }
+
+  &__lampImg {
+    position: absolute;
+    right: -140px;
+    top: -126px;
+    z-index: -1;
+  }
+
+  &__btnsWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    .roundButton {
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__compImg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -135px;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .banner {
+    &__rightBlock {
+      margin-left: 90px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .banner {
+    .rectangle {
+      display: none;
+    }
+    .container {
+      flex-direction: column;
+    }
+
+    .title {
+      margin-bottom: 10px;
+    }
+
+    &__subTitle {
+      font-size: 15px;
+      line-height: 18px;
+    }
+
+    &__leftBlock {
+      margin-bottom: 93px;
+
+      .buttonWrrapper {
+        width: 256px;
+        display: flex;
+      }
+    }
+
+    &__rightBlock {
+      margin-left: 0;
+    }
+
+    &__btnsWrapper {
+      position: absolute;
+      bottom: -15px;
+      right: 40px;
+    }
+
+    &__lampImg {
+      display: none;
+    }
+
+    &__compImg {
+      bottom: -250px;
+      left: 0;
+      width: 260px;
+      transform: rotate(-20deg);
+    }
+
+    .rectangleMobile {
+      position: absolute;
+      top: 490px;
+      z-index: -1;
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .banner {
+    margin-top: 40px;
+  }
+}

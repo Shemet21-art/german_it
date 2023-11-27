@@ -1,0 +1,44 @@
+@import "utils/vars/colors.scss";
+
+.meetups {
+  margin-top: 130px;
+
+  .rectangle {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .rectangle-mobile {
+    display: none;
+  }
+
+  .title {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .meetups {
+    margin-top: 40px;
+
+    .title {
+      margin-bottom: 40px;
+    }
+
+    .rectangle {
+      display: none;
+    }
+
+    .rectangle-mobile {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      width: 100%;
+    }
+  }
+}

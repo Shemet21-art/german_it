@@ -1,0 +1,156 @@
+{
+  "navbar": {
+    "main": "Главная",
+    "meetups": "Митапы",
+    "map": "Карта участников",
+    "projects": "Совместные проекты",
+    "vacancies": "Вакансии",
+    "contacts": "Контакты",
+    "imressum": "Impressum"
+  },
+
+  "datePicker": {
+    "placeholder": "Дата"
+  },
+
+  "banner": {
+    "title": "Сообщество айтишников",
+    "title-gradient": "в Германии",
+    "subTitle": "Новые знакомства, уютный чат в телеграме и запуск совместных проектов"
+  },
+
+  "communities": {
+    "title": "Сообщество",
+    "subtitle": " Как айтишнику в Германии найти людей с похожими интересами и целями? Подходящие ресурсы для этого найти сложно.",
+    "text": " Мы столкнулись с этой проблемой, когда пытались найти людей, которыебы разделяли наши ценности и интересы и, к тому же, говорили бы на русском языке. Так и появилась идея создать сообщество для объединения айтишников со всех городов Германии. Сообщество, которое даст всё нужное для достижения этих целей.",
+    "development": "развитие себя в IT",
+    "searchExperience": "поиск единомышленников для обмена опытом",
+    "technical": "взаимопомощь в решении технических проблем",
+    "jointProjects": "создание совместных проектов",
+    "createProjects": "создание совместных проектов",
+    "opportunitiesTitleChat": "Основной чат",
+    "opportunitiesTextChat": "Чат IT Германия, где обсуждаются вопросы IT. Можно задать вопрос и получить помощь",
+    "opportunitiesTitleMap": "Бот и карта",
+    "opportunitiesTextMap": "Отмечайся на карте при помощи бота и ищи людей рядом с тобой ;)",
+    "opportunitiesTitleLocal": "Локальные чаты",
+    "opportunitiesTextLocal": "Отдельные чаты для крупных городов: Франкфурт, Берлин",
+    "opportunitiesTitleTelegram": "Оффтоп чат",
+    "opportunitiesTextTelegram": "Чат в телеграм для неформального общения, обсуждения вопросов на любые темы",
+    "opportunitiesTitleDiscord": "Дискорд",
+    "opportunitiesTextDiscord": "Группа в Discord с несколькими каналами, где устраиваем звонки на разные темы",
+    "opportunitiesTitleBisiness": "Бизнес Германия",
+    "opportunitiesTextBissiness": "Бизнес форум предпринимательства, для старта собственного бизнеса и поиска партнёров",
+    "membersTitle": "Наши участники",
+    "membersText": " При вступлении в нашу группу каждый участник пишет сообщение-привестствие, где рассказывает о себе, своих интересах и профессиональной сфере. Ниже приведены несколько сообщений от наших участников:)",
+    "connectToTelegramTitle": " Присоединяйся к группе в ",
+    "connectToTelegramText": " Это отличная возможность расширить свой круг общения в IT. Присоединяйся, знакомься с новыми людьми, задавай вопросы и участвуй в обсуждениях. Ребята всегда готовы помочь, поделиться своим опытом и предложить разные решения проблемы. Вступи в группу и стань частью этого сообщества.",
+    "howToJoinTitle": "Как вступить?",
+    "howToJoinTelegram": "Telegram",
+    "howToJoinTelegramText": "Присоединяйся к группе в телеграм. Знакомься, участвуй в обсуждениях и задавай вопросы.",
+    "howToJoinMap": "Отмечайся в боте на карте",
+    "howToJoinMapText": "Ставь отметку на интеррактивной карте при помощи бота. Возможно кто-то из твоего города уже тоже поставил отметку",
+    "howToJoinMeeting": "Договаривайся о встрече",
+    "howToJoinMeetingText": "Знакомься с новыми людьми, пиши в личные сообщения и договаривайся о месте и времени встречи",
+    "description": "Возможности"
+  },
+
+  "meetups": {
+    "title": "Митапы",
+    "input": "Поиск",
+    "dropdown": "Сообщества"
+  },
+
+  "meetup": {
+    "speakers": "Спикеры:"
+  },
+
+  "commonProjects": {
+    "title": "Совместные проэкты"
+  },
+
+  "contacts": {
+    "title": "Контакты"
+  },
+
+  "impressum": {
+    "title": "Impressum",
+    "adressText": "Angaben gemäß § 5 TMG Edgar Linde Großer Hasenpfad 25 60598 Frankfurt am Main",
+    "subtitle": "Vertreten durch:",
+    "name": "Edgar Linde",
+    "contact": "Kontakt:",
+    "telefon": "Telefon:",
+    "linksText": "Haftung für Links",
+    "textBlockOne": " Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+    "textBlockTwo": " Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.",
+    "textBlockThree": " Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor."
+  },
+
+  "map": {
+    "title": "Карта участников",
+    "placeholderVacancy": "Фильтр по сообществам",
+    "placehlderSearch": "Поиск"
+  },
+
+  "vacansies": {
+    "title": "Вакансии",
+    "text": "Проверенные вакансии от участников сообщества"
+  },
+
+  "error": {
+    "text": "No matching results"
+  },
+
+  "vacancy": {
+    "price": "Цена:",
+    "experience": "Опыт работы:",
+    "employment": "Занятость:",
+    "adress": "Адрес:",
+    "tasks": "Какие задачи будут тебя ждать:",
+    "dateText": "Вакансия опубликована",
+    "contactsText": "Оставьте свои контакты, чтобы работодатель мог связаться с вами",
+    "btnText": "Продолжить"
+  },
+
+  "cardVacancies": {
+    "price": "Цена:",
+    "expirience": "Опыт работы:",
+    "employment": "Занятость:",
+    "adress": "Адрес:"
+  },
+
+  "footer": {
+    "text": "IT Германия. All Rights reserved."
+  },
+
+  "popover": {
+    "description": "Участников сообщества"
+  },
+
+  "sliderCard": {
+    "participant": "учасника",
+    "group": " в группе",
+    "insider": "Инсайдерские",
+    "vacancies": "вакансии",
+    "mapTitle": "Карта и бот",
+    "mapDescr": "учасников",
+    "meetupTitle": "Митапы",
+    "meetupDescr": "регулярно",
+    "jointTitle": "Совмесные",
+    "jointDescr": "проекты"
+  },
+
+  "projects": {
+    "titleFirst": "MitMate",
+    "textFirst": "Надежный поиск друзей в Германии!",
+    "nameFirst": "Эдгард Линде",
+    "descrFirst": "основатель",
+    "titleSecond": "MitMate",
+    "textSecond": "Надежный поиск друзей в Германии!",
+    "nameSecond": "Эдгард Линде",
+    "descrSecond": "основатель",
+    "titleThird": "MitMate",
+    "textThird": "Надежный поиск друзей в Германии!",
+    "nameThird": "Эдгард Линде",
+    "descrThird": "основатель"
+  }
+}

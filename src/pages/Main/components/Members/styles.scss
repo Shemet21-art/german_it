@@ -1,0 +1,105 @@
+.members {
+  margin-bottom: 300px;
+  display: flex;
+  align-items: center;
+
+  &__sliderWrapper {
+    max-width: 310px;
+    width: 100%;
+    position: relative;
+  }
+
+  &__phoneRect {
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    z-index: 100;
+  }
+
+  &__rightContent {
+    max-width: 602px;
+    width: 100%;
+    margin-left: 130px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  &__buttonsWrapper {
+    display: flex;
+    margin-top: 50px;
+
+    .roundButton {
+      margin-right: 15px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__buttonsWrapperMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1398.98px) {
+  .members {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .members {
+    &__rightContent {
+      margin-left: 90px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .members {
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+
+    &__rightContent {
+      margin-left: 0;
+      margin-bottom: 40px;
+    }
+    &__sliderWrapper {
+      max-width: 280px;
+      width: 100%;
+      position: relative;
+    }
+
+    &__phoneRect {
+      width: 310px;
+      position: absolute;
+      left: -15px;
+      top: -15px;
+      z-index: 100;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+    &__buttonsWrapper {
+      display: none;
+    }
+
+    &__buttonsWrapperMobile {
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+      position: relative;
+      z-index: 100;
+
+      .roundButton {
+        margin-right: 15px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

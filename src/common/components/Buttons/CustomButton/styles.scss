@@ -1,0 +1,61 @@
+@import "utils/vars/colors.scss";
+.buttonWrrapper {
+  position: relative;
+  display: inline;
+}
+
+.button {
+  position: relative;
+  background: linear-gradient(131.35deg, #cb97ff 7.53%, #583dff 94.2%);
+  border-radius: 30px;
+  padding: 18px 32px;
+  color: $white;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  max-width: 310px;
+  width: 100%;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -19px;
+    z-index: -1;
+    background: linear-gradient(131.35deg, #cb97ff 7.53%, #583dff 94.2%);
+    filter: blur(17px);
+    border-radius: 30px;
+  }
+
+  &:hover {
+    background: linear-gradient(131.35deg, #f097ff 7.53%, #9b24e4 94.2%);
+
+    &::before {
+      background: linear-gradient(131.35deg, #ff97f5 7.53%, #cb22e7 94.2%);
+    }
+  }
+
+  &__withIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &.small {
+    max-width: 170px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 6px 19px;
+    height: 30px;
+    box-sizing: border-box;
+  }
+}
+
+.navButton {
+  cursor: pointer;
+}

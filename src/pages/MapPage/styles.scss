@@ -1,0 +1,396 @@
+.dialog {
+  display: none;
+}
+
+.dialog.MuiDialog-root {
+  z-index: 10000000 !important;
+  .MuiIconButton-root {
+    text-align: end;
+    justify-content: end;
+  }
+  .MuiIconButton-label {
+    width: 25%;
+    display: flex;
+  }
+}
+
+.dialog.MuiIconButton-root {
+  text-align: end;
+  justify-content: end;
+}
+
+.mapPage {
+  margin-bottom: 200px;
+
+  .rectangle {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .filtersWrapperMobile {
+    display: none;
+  }
+
+  &__buttonWrapper {
+    display: none;
+  }
+
+  .rectangle-mobile {
+    display: none;
+  }
+
+  &__filtersInputWrapper {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  &__contentWrapper {
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+    position: relative;
+  }
+
+  &__mapContainer {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+  }
+
+  &__filtersWrapper {
+    display: block;
+
+    z-index: 10000;
+    right: 50px;
+    top: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    .title {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__searchInputWrapper {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+.mapButtons {
+  position: relative;
+  z-index: 10000;
+  display: inline-flex;
+  flex-direction: column;
+  top: 100px;
+  left: 50px;
+
+  .mapDrawerbtn {
+    display: none;
+  }
+
+  button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      111.68deg,
+      rgba(255, 255, 255, 0.4) 7.59%,
+      rgba(255, 255, 255, 0.7) 102.04%
+    );
+    // box-shadow: 0px 15px 60px rgba(70, 61, 128, 0.2);
+    // backdrop-filter: blur(30px);
+    border: 2px solid rgba(92, 41, 255, 0.3);
+    margin-bottom: 15px;
+
+    &:hover {
+      cursor: pointer;
+      background: linear-gradient(
+        111.68deg,
+        rgba(255, 255, 255, 0.6) 7.59%,
+        rgba(255, 255, 255, 0.9) 102.04%
+      );
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.markercluster-map {
+  height: 90vh;
+}
+
+.leaflet-popup-content-wrapper {
+  background: linear-gradient(
+    111.68deg,
+    rgba(255, 255, 255, 0.5) 7.59%,
+    rgba(255, 255, 255, 0.8) 102.04%
+  );
+}
+
+.leaflet-popup-content {
+  padding: 20px 40px;
+  margin: 0;
+}
+
+.leaflet-popup-content h2 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.leaflet-popup-content h3 {
+  background: linear-gradient(131.35deg, #cb97ff 7.53%, #583dff 94.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.leaflet-popup-content p {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+
+.leaflet-popup-tip {
+  background: linear-gradient(
+    111.68deg,
+    rgba(255, 255, 255, 0.5) 7.59%,
+    rgba(255, 255, 255, 0.8) 102.04%
+  );
+}
+
+.draweWrapperWhite {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .DrawerTitle {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .DrawerDescription {
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #9f9ea5;
+  }
+  .DrawerGroup {
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 24px;
+    background: linear-gradient(131.35deg, #a347ff 7.53%, #2e17c4 94.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.draweWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(
+    131.35deg,
+    rgba(203, 151, 255, 0.3) 7.53%,
+    rgba(88, 61, 255, 0.3) 94.2%
+  );
+
+  .DrawerTitle {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .DrawerDescription {
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #9f9ea5;
+  }
+  .DrawerGroup {
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 24px;
+    background: linear-gradient(131.35deg, #a347ff 7.53%, #2e17c4 94.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .containerMobile {
+    display: none;
+  }
+
+  .mapPage {
+    &__mapContainer {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .mapPage {
+    &__contentWrapper {
+      flex-direction: column-reverse;
+      align-items: unset;
+    }
+
+    &__dropdownWrapper {
+      margin-top: 40px;
+    }
+
+    &__buttonWrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .filtersWrapperMobile {
+      display: none;
+      margin-top: 130px;
+      margin-bottom: 50px;
+    }
+
+    .title {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .dialog {
+    display: block;
+  }
+
+  .mapPage {
+    .rectangle {
+      display: none;
+    }
+
+    &__searchFormMobbile {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__buttonWrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .rectangle-mobile {
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+
+    &__contentWrapper {
+      flex-direction: column-reverse;
+      align-items: unset;
+    }
+
+    .filtersWrapperMobile {
+      display: block;
+      margin-top: 130px;
+      margin-bottom: 50px;
+    }
+
+    &__filtersWrapper {
+      display: none;
+    }
+
+    &__rightContent {
+      margin-bottom: 25px;
+      .title {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .mapButtons {
+      top: 0;
+
+      .mapDrawerbtn {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .mapPage {
+    .rectangle {
+      display: none;
+    }
+
+    &__buttonWrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .filtersWrapperMobile {
+      display: block;
+      margin-top: 40px;
+      margin-bottom: 50px;
+    }
+
+    .rectangle-mobile {
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+
+    &__contentWrapper {
+      flex-direction: column-reverse;
+      align-items: unset;
+    }
+
+    &__rightContent {
+      margin-bottom: 25px;
+      .title {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+    .title {
+      margin-bottom: 50px;
+    }
+
+    &__filtersWrapper {
+      display: none;
+    }
+
+    .mapButtons {
+      top: 0;
+    }
+  }
+}

@@ -1,0 +1,211 @@
+@import "utils/vars/colors.scss";
+
+.vacancy {
+  margin-top: 130px;
+
+  .rectangle-mobile {
+    display: none;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__description {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: $base-text-color;
+    margin-bottom: 40px;
+  }
+
+  &__leftContent {
+    max-width: 640px;
+    width: 100%;
+  }
+
+  &__descriptionList {
+    max-width: 360px;
+    width: 100%;
+  }
+
+  &__wrapperList {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__listSubtitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  &__rightContent {
+    max-width: 520px;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  &__vacancyImg {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__tasksWrapper {
+    max-width: 890px;
+    margin-bottom: 50px;
+  }
+
+  &__taskWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  &__taskIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+
+  &__dateText {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    background: linear-gradient(131.35deg, #cb97ff 7.53%, #583dff 94.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 50px;
+  }
+
+  &__subtitle {
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30px;
+    max-width: 530px;
+    margin-bottom: 50px;
+  }
+
+  &__emalInputWrapper {
+    max-width: 420px;
+    margin-bottom: 185px;
+
+    .button {
+      max-width: 420px;
+      margin-top: 15px;
+    }
+  }
+
+  .rectangle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .title-gradient {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+  }
+
+  .subtitle {
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1119.8px) {
+  .vacancy {
+    .rectangle {
+      display: none;
+    }
+
+    &__leftContent {
+      margin-right: 10px;
+    }
+
+    &__description {
+      font-size: 20px;
+      line-height: 25px;
+      color: #2c2936;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .vacancy {
+    &__content {
+      justify-content: center;
+    }
+
+    &__header {
+      flex-direction: column;
+      align-items: left;
+      margin-bottom: 15px;
+    }
+
+    &__leftContent {
+      max-width: 992px;
+      width: 100%;
+    }
+
+    &__rightContent {
+      display: none;
+    }
+
+    &__descriptionList {
+      max-width: 992px;
+      font-size: 25px;
+      line-height: 25px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .vacancy {
+    margin-top: 40px;
+
+    .rectangle-mobile {
+      position: absolute;
+      z-index: -5;
+      display: block;
+      bottom: 0;
+      right: 0;
+    }
+
+    &__header {
+      flex-direction: column;
+    }
+
+    &__rightContent {
+      display: none;
+    }
+
+    &__emalInputWrapper {
+      max-width: unset;
+
+      .button {
+        max-width: unset;
+        margin-top: 15px;
+      }
+    }
+  }
+}

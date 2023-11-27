@@ -1,0 +1,56 @@
+.connectToTelegram {
+  position: relative;
+  margin-bottom: 290px;
+
+  &__rectangle {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+
+  &__rectangleMobile {
+    display: none;
+    z-index: -1;
+  }
+
+  &__left {
+    max-width: 720px;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .text {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .connectToTelegram {
+    margin-bottom: 395px;
+
+    .container {
+      .telegramImg {
+        display: none;
+      }
+    }
+    &__rectangle {
+      display: none;
+    }
+
+    &__rectangleMobile {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: -120px;
+    }
+  }
+}
